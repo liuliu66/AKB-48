@@ -1,0 +1,171 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Articulated Object Bank</title>
+<link rel="icon" href="images/A.png" type="image/x-icon">
+<link rel="shortcut icon" href="images/A.png" type="image/x-icon">
+<meta name="keywords" content="web store, free sc.chinaz.com, sc.chinaz.com, CSS, HTML" />
+<meta name="description" content="Web Store Theme - free CSS template provided by templatemo.com" />
+<link href="css/templatemo_style.css" rel="stylesheet" type="text/css" />
+
+<link rel="stylesheet" type="text/css" href="css/ddsmoothmenu.css" />
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/ddsmoothmenu.js">
+
+/***********************************************
+* Smooth Navigational Menu- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
+* This notice MUST stay intact for legal use
+* Visit Dynamic Drive at http://www.dynamicdrive.com/ for full source code
+***********************************************/
+
+</script>
+
+<script type="text/javascript">
+
+ddsmoothmenu.init({
+	mainmenuid: "templatemo_menu", //menu DIV id
+	orientation: 'h', //Horizontal or vertical menu: Set to "h" or "v"
+	classname: 'ddsmoothmenu', //class added to menu's outer DIV
+	//customtheme: ["#1c5a80", "#18374a"],
+	contentsource: "markup" //"markup" or ["container_id", "path_to_menu_file"]
+})
+
+</script>
+
+<link rel="stylesheet" type="text/css" href="css/styles.css" />
+<script language="javascript" type="text/javascript" src="scripts/mootools-1.2.1-core.js"></script>
+<script language="javascript" type="text/javascript" src="scripts/mootools-1.2-more.js"></script>
+<script language="javascript" type="text/javascript" src="scripts/slideitmoo-1.1.js"></script>
+<script language="javascript" type="text/javascript">
+	window.addEvents({
+		'domready': function(){
+			/* thumbnails example , div containers */
+			new SlideItMoo({
+						overallContainer: 'SlideItMoo_outer',
+						elementScrolled: 'SlideItMoo_inner',
+						thumbsContainer: 'SlideItMoo_items',		
+						itemsVisible: 5,
+						elemsSlide: 2,
+						duration: 200,
+						itemsSelector: '.SlideItMoo_element',
+						itemWidth: 171,
+						showControls:1});
+		},
+		
+	});
+
+	function clearText(field)
+	{
+		if (field.defaultValue == field.value) field.value = '';
+		else if (field.value == '') field.value = field.defaultValue;
+	}
+</script>
+
+</head>
+
+<body id="home">
+
+<div id="templatemo_wrapper">
+	<div id="templatemo_header">
+    	<div id="site_title"><h1><a href="index.html"></a></h1></div>
+        
+        <div id="header_right">
+            <ul id="language">
+                <li><a><img src="images/usa.png" alt="English" /></a></li>
+                <li><a><img src="images/china.png" alt="Chinese" /></a></li>
+                <li><a><img src="images/germany.png" alt="Germany" /></a></li>
+                <li><a><img src="images/india.png" alt="Indian" /></a></li>
+            </ul>
+            <div class="cleaner"></div>
+            <div id="templatemo_search">
+                <form action="#" method="get">
+                  <input type="text" value="Search" name="keyword" id="keyword" title="keyword" onfocus="clearText(this)" onblur="clearText(this)" class="txt_field" />
+                  <input type="submit" name="Search" value="" alt="Search" id="searchbutton" title="Search" class="sub_btn"  />
+                </form>
+            </div>
+         </div> <!-- END -->
+    </div> <!-- END of header -->
+    
+    <div id="templatemo_menu" class="ddsmoothmenu">
+        <ul>
+            <li><a href="index.html" class="selected">Home</a></li>
+            <li><a href="#">Download</a></li>
+            <li><a href="#">Documentation</a></li>
+            <li><a href="#">Publication</a></li>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">About</a>
+            <ul>
+                <li><a href="#">People</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Term of Use</a></li>
+          </ul>
+        </li>
+        </ul>
+        <br style="clear: left" />
+    </div> <!-- end of templatemo_menu -->
+    
+    <div id="templatemo_middle">
+    	<!--<img width=400px src="images/templatemo_image_01.png" alt="Image 01" />-->
+    	<h2><font size=6, color="white">AKB-48</font></h2>
+        <p><font size=4, color="white">This is a realistic and physics-rich object repository for articulation analysis. It enables various robotic vision and interaction tasks that require detailed part-level understanding. More categories and download link will be released soon.</font></p>
+    </div> <!-- END of middle -->
+    
+    <div id="templatemo_main_top"></div>
+    <div id="templatemo_main">
+        
+        <div id="sidebar">
+        	<h2>Download</h2>
+        </div> <!-- END of sidebar -->
+
+
+        <div class="cleaner"></div>
+    </div> <!-- END of main -->
+    <p style= "background:white"><font size=4>The Download link will be released soon.</font></p>
+    
+    <div id="templatemo_footer">
+    	<div class="col col_16">
+        	<h4>Categories</h4>
+            <ul class="footer_menu">
+			    <li><a href="#">Box</a></li>
+                <li><a href="#">Stapler</a></li>				
+                <li><a href="#">Drawer</a></li>
+                <li><a href="#">Scissors</a></li>				
+		  </ul>  
+        </div>
+        <div class="col col_16">
+        	<h4>Pages</h4>
+            <ul class="footer_menu">
+            	<li><a href="#">Home</a></li>
+                <li><a href="#">Browse</a></li>
+                <li><a href="#">Download</a></li>
+                <li><a href="#">FAQs</a></li>
+                <li><a href="#">Documentation</a></li>
+                <li><a href="#">About</a></li>
+			</ul>  
+        </div>
+        <div class="col col_16">
+        	<h4>Social</h4>
+            <ul class="footer_menu">
+            	<li><a href="#">Twitter</a></li>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Youtube</a></li>
+                <li><a href="#">LinkedIn</a></li> 
+		  </ul>  
+        </div>
+        <div class="col col_13 no_margin_right">
+        	<h4>About Us</h4>
+            <p>This project is developed and maintained by <a href="http://home.ustc.edu.cn/~liuliu66/" rel="nofollow"><strong>Liu Liu</strong></a> @MVIG at SJTU.</p>
+        </div>
+        
+        <div class="cleaner h40"></div>
+		<center>
+			<em>Copyright © 2021 Liu Liu, Shanghai JiaoTong University</em>
+		</center>
+    </div> <!-- END of footer -->   
+   
+</div>
+
+<div style="display:none"><script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div></body>
+</html>
